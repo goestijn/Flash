@@ -1,0 +1,24 @@
+{
+    "name": "cube/flash",
+    "description": "A package which adds the ability to simply manage flash messages in a laravel application",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stijn Goethals",
+            "email": "stijn@goethals-degraeve.net"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": "5.5.*"
+    },
+    "autoload": {
+        "files": [
+            "src/Support/helpers.php"
+        ],
+        "psr-4": {
+            "Cube\\Flash\\": "src"
+        }
+    }
+}
